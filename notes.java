@@ -73,8 +73,8 @@ public class JavaApplication1 {
         //---------------Same thing but with arranging the the JOptionPanel(text color, background color) using the UIManager class 
         /*
         UIManager um = new UIManager();
-        um.put("OptionPane.messageForeground", Color.red);
-        um.put("Panel.background", Color.green);
+        um.put("OptionPane.messageForeground", Color.red);  //For the text color
+        um.put("Panel.background", Color.green);   //For the background color
        
         String name = JOptionPane.showInputDialog(null, "Enter your full name (first, middle, last):");
        
